@@ -1,0 +1,36 @@
+li ,a{
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    margin: 0 auto;
+    width: 1208px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 a {
+    font-size: 24px;
+    font-weight: 700;
+     color: #B2D430;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header li{
+    padding-left: 20px;
+}
+.header li a {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: .2em;
+
+}
