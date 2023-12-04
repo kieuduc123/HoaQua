@@ -89,21 +89,14 @@ body{
 }
 .item {
     border : 1px solid  #ede9e9;
-    overflow: hidden;
     text-align: center;
     background: #ede9e9;
     margin-top: 20px;
-    position: relative;
 }
 .item img{
     width: 247px;
     height: 296px;
-    transition: 0.2s all;
     object-fit: cover;
-}
-.item img:hover{
-  transform: scale(1.1);
-  /* scale: 0.9 */
 }
 
 .item h3 {
